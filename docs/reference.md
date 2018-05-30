@@ -11,6 +11,7 @@ To use markdown as a module:
 
 ```python
 import markdown
+import codecs
 html = markdown.markdown(your_text_string)
 ```
 
